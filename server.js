@@ -1,5 +1,5 @@
 const express = require("express");
-const htmlroute = require('./routes/htmlroute');
+const htmlroute = require("./routes/htmlroute");
 const apiroute = require("./routes/apiroute")
 
 const PORT = process.env.port || 3001;
@@ -11,6 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.use("/api", apiroute);
 app.use("/", htmlroute);
+
 
 // start server on the provided port
 app.listen(PORT, () =>
