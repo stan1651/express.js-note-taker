@@ -1,4 +1,4 @@
-// html routes and api routes
+ //html routes and api routes
     // html routes - are the physical pages of your sites 
         // similar to linking multiple .html files to one html file (static path)
     // api routes = database or an actual library 
